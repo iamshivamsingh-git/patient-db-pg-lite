@@ -52,6 +52,18 @@ vite.config.js       # Vite config
 README.md            # This file
 ```
 
+## 🔨 Configuration
+
+```
+await db.query(`
+  CREATE TABLE IF NOT EXISTS users (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    age INTEGER,
+    gender TEXT
+  );
+`);
+```
 
 ## ⚙️ Available Scripts
 
