@@ -159,7 +159,7 @@ export default function App() {
   };
 
 return (
-    <div className="relative w-200px">
+    <div className="relative w-50px">
        {/* Toast Container Positioned at top-right */}
       <ToastContainer
         position="top-right"
@@ -173,7 +173,7 @@ return (
         pauseOnHover
       />
 
-      <div className="w-full">
+      <div className="w-full min-h-screen">
         <div className="bg-white rounded-2xl shadow-xl p-11">
           <h1 className="text-4xl font-bold text-gray-900 mb-8 text-center flex items-center justify-center">
             <FiDatabase className="text-blue-500 mr-3" />
