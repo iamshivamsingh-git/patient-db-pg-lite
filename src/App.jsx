@@ -243,7 +243,7 @@ return (
                     value={sql}
                     rows={3}
                     onChange={e => setSql(e.target.value)}
-                    className="w-full px-4 py-3 bg-gray-900 text-green-300 border border-gray-800 rounded-lg font-mono text-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all"
+                    className="w-full  h-32 resize-none px-4 py-3 bg-gray-900 text-green-300 border border-gray-800 rounded-lg font-mono text-sm focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all"
                     placeholder="SELECT * FROM users;"
                   />
                 </div>
