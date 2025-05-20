@@ -135,6 +135,7 @@ export default function App() {
       const { rows } = await db.query(sqlToRun);
       sqlRef.current = sqlToRun;
       setRows(rows);
+      setError("")
       toast.success('Executed successfully!');
       broadcastChannel.postMessage({ type: 'REFRESH_DATA' });
     } catch (err) {

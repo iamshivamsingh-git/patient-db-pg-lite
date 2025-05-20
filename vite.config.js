@@ -6,6 +6,8 @@ export default defineConfig({
   plugins: [react(),],
   optimizeDeps: {
     exclude: ['@electric-sql/pglite'],
-    
   },
+  worker:{
+    format: 'es',
+  }
 })
