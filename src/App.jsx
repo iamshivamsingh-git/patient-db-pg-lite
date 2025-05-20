@@ -188,7 +188,7 @@ return (
               </h2>
               <form onSubmit={handleAddUser} className="space-y-6">
                 <div>
-                  <label className="block text-sm text-left font-medium text-gray-600 mb-1">Full Name</label>
+                  <label className="block text-sm text-left font-medium text-gray-600 mb-1">Full Name*</label>
                   <input
                     type="text"
                     ref={nameRef}
@@ -197,7 +197,7 @@ return (
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-left text-gray-600 mb-1">Age</label>
+                  <label className="block text-sm font-medium text-left text-gray-600 mb-1">Age*</label>
                   <input
                     type="number"
                     ref={ageRef}
@@ -206,7 +206,7 @@ return (
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-left text-gray-600 mb-1">Gender</label>
+                  <label className="block text-sm font-medium text-left text-gray-600 mb-1">Gender*</label>
                   <select
                     ref={genderRef}
                     className="w-full text-black px-4 py-3 bg-gray-100 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-400 focus:border-transparent transition-all"
